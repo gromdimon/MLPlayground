@@ -1,13 +1,13 @@
 // compile with
-// make aufgabe2_test
+// make suftab_test
 // or (same thing):
-// g++ -Wall -pedantic -O3 -D_GLIBCXX_ASSERTIONS -g -fsanitize=address aufgabe2_test.cpp aufgabe2.cpp -o aufgabe2_test
+// g++ -Wall -pedantic -O3 -D_GLIBCXX_ASSERTIONS -g -fsanitize=address suftab_test.cpp suftab.cpp -o suftab_test
 //
 #include <iostream>
 #include <string>
 #include <algorithm>
 #include <chrono>
-#include "aufgabe2.hpp"
+#include "suftab.hpp"
 
 using namespace std;
 
@@ -238,11 +238,10 @@ int main()
     if (!test_speed())
     {
       points -= 5;
-      std::cerr << "test_speed failed! (your implementation will be inspected)\n";
+      std::cerr << "test_speed failed!\n";
     }
       
     std::cout << "Total points: " << points << "\n";
-    std::cout << "(if code is correctly pushed into Git && aufgabe2_main.cpp is correct && your implementation uses MLR )\n";
     
     return 100 + points;
 }

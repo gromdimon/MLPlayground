@@ -1,5 +1,5 @@
 // compile with
-// g++ -std=c++17 -Wall -pedantic -O3 -D_GLIBCXX_ASSERTIONS -g -fsanitize=address aufgabe2_bench.cpp aufgabe2.cpp -o aufgabe2_bench
+// g++ -std=c++17 -Wall -pedantic -O3 -D_GLIBCXX_ASSERTIONS -g -fsanitize=address suftab_bench.cpp suftab.cpp -o suftab_bench
 //
 #include <iostream>
 #include <string>
@@ -7,7 +7,7 @@
 #include <fstream>
 #include <ctime>
 
-#include "aufgabe2.hpp"
+#include "suftab.hpp"
 
 using namespace std;
 

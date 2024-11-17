@@ -1,6 +1,3 @@
-//
-//   DO NOT CHANGE ANYTHING HERE!!!
-//
 #pragma once // include guard
 
 #include <string>

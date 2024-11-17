@@ -10,6 +10,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [Scam Detection Algorithm](./scam_algo)
 - [Leetcode problems](./leetcode)
 - [Horspool Algorithm](./horspool)
+- [Suffix Array](./suftab)
 
 ## Languages
 - Python

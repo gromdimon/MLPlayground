@@ -16,6 +16,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [QGramIndex](./QGramIndex)
 - [ACTrie](./ACTrie)
 - [Push-Down Automaton](./push-down-automaton)
+- [SHA256](./sha256)
 
 ## Languages
 - Python

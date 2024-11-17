@@ -1,4 +1,4 @@
-#include "aufgabe1.h"
+#include "horspool.h"
 #include <iostream>
 #include <numeric>
 

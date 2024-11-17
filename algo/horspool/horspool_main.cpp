@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-#include "aufgabe1.h"
+#include "horspool.h"
 
 using namespace std;
 

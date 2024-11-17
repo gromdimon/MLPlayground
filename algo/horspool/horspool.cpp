@@ -1,14 +1,8 @@
 /**
- * Praktikum Algorithmen und Datenstrukturen
- * WS 2023/2024
- *
- * Aufgabe 1
- * Horpool-Algorithmus
- *
- * Authors: Dzmitry Hramyka, Mathias Husted
+ * Horspool-Algorithm
  */
 
-#include "aufgabe1.h"
+#include "horspool.h"
 
 /**
  * @brief Find the shift for the given character

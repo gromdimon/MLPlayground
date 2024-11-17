@@ -9,6 +9,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [Bioinformatics algorithms](./bioinfo)
 - [Scam Detection Algorithm](./scam_algo)
 - [Leetcode problems](./leetcode)
+- [Horspool Algorithm](./horspool)
 
 ## Languages
 - Python

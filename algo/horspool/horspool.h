@@ -1,14 +1,7 @@
-// WARNING:
-// only ADD things to this file. Do NOT modify, move or delete existing function declarations!
-//
-
 #pragma once
 
 #include <string>
 #include <vector>
-
-// additional includes (should you need them), go here
-//  ...
 #include <unordered_map>
 #include <cstdint>
 

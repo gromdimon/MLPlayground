@@ -14,10 +14,10 @@ organization. Look at Readme's and comments in the code for more details.
 - [Alignment Challenge](./align)
 - [BLAST](./BLAST)
 - [QGramIndex](./QGramIndex)
+- [ACTrie](./ACTrie)
 - [Push-Down Automaton](./push-down-automaton)
 
 ## Languages
 - Python
-- C
 - C++
 

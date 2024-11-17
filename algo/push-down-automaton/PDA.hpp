@@ -1,15 +1,11 @@
 #pragma once
 
-// YOUR includes go here
-// ...
 #include <stack>
 #include <map>
 
 class PDA
 {
 public:
-    // as always: do NOT change the public interface
-    
     enum class Language {
       HAIRPIN, ///< accepts RNA Hairpins
       BRACKETS ///< Zusatzaufgabe
@@ -37,7 +33,6 @@ public:
 
     
 protected:
-    // YOUR Member variables and functions here
     std::stack<char> stack;
     State currentState;
     Language currentLanguage;

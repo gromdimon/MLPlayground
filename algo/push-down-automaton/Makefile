@@ -9,9 +9,9 @@ CXXFLAGS = -std=c++17 -Wall -pedantic -O2 -D_GLIBCXX_ASSERTIONS -g -fsanitize=ad
 	${CXX} ${CXXFLAGS} -I . -c $*.cpp
 	
 
-aufgabe7_main: PDA.o aufgabe7_main.o
-	${CXX} ${CXXFLAGS} -I . $^ -o aufgabe7_main
+pda_main: PDA.o pda_main.o
+	${CXX} ${CXXFLAGS} -I . $^ -o pda_main
 
-aufgabe7_test: PDA.o  aufgabe7_test.o
-	${CXX} ${CXXFLAGS} -I . $^ -o  aufgabe7_test
+pda_test: PDA.o pda_test.o
+	${CXX} ${CXXFLAGS} -I . $^ -o pda_test
   

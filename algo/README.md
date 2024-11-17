@@ -14,6 +14,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [Alignment Challenge](./align)
 - [BLAST](./BLAST)
 - [QGramIndex](./QGramIndex)
+- [Push-Down Automaton](./push-down-automaton)
 
 ## Languages
 - Python

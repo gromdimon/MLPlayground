@@ -161,7 +161,7 @@ int main(int argc, const char * argv[])
     std::cerr << "Usage: " << argv[0] << "\n";
     return -1;
   }
-  std::cout << "Note: Compile using the Makefile (i.e. with AddressSanitizer) to make sure there are no hidden segfaults (0 points)\n\n";
+  std::cout << "Note: Compile using the Makefile (i.e. with AddressSanitizer) to make sure there are no hidden segfaults\n\n";
 
   int points{0};
 

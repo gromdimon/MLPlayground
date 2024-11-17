@@ -258,8 +258,8 @@ int main(int argc, const char * argv[])
     std::cerr << "Usage: " << argv[0] << "\n";
     return -1;
   }
-  std::cout << "Note: Compile using the Makefile (i.e. with AddressSanitizer) to make sure there are no hidden segfaults (0 points)\n\n";
-  std::cout << "Note: Your program must finish within 30 seconds on the test machine to avoid a timeout (the sample implementation takes around 1.5 seconds on this very machine).\n\n";
+  std::cout << "Note: Compile using the Makefile (i.e. with AddressSanitizer) to make sure there are no hidden segfaults\n\n";
+  std::cout << "Note: Your program must finish within 30 seconds on the test machine to avoid a timeout\n\n";
 
   int points = 0;
 

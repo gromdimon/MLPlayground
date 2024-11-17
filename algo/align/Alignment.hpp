@@ -1,9 +1,6 @@
 #pragma once
 
 #include <string>
-
-// additional includes can go here:
-// ...
 #include <cstdint>
 #include <vector>
 #include <utility>
@@ -16,8 +13,6 @@
 class Alignment
 {
 public:
-  // DO NOT CHANGE THE PUBLIC INTERFACE!
-  
   /// This makes the default constructor private
   /// i.e. an object of the class can only be created with sequences (see below)
   Alignment() = delete;  // no NOT implement this function. Just leave it as is.
@@ -49,9 +44,7 @@ public:
   void getAlignment(std::string& a1, std::string& gaps, std::string& a2) const;
   
 private:
-  // add your private functions and member variables here
-  // ...
-    enum class Traceback : int8_t{
+  enum class Traceback : int8_t{
     NONE,
     DIAGONAL,
     HORIZONTAL,

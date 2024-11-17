@@ -234,7 +234,6 @@ int main()
     points += p;
 
     std::cout << "Final score: " << points << " of 10.\n";
-    std::cout << "(if code is correctly pushed into Git && aufgabe3_main.cpp is correct)\n";
     
     // returning the points as error code for easier evaluation
     return 100 + points;

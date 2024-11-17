@@ -10,9 +10,9 @@ CXXFLAGS = -std=c++17 -Wall -pedantic -O2 -D_GLIBCXX_ASSERTIONS -g -fsanitize=ad
 	${CXX} ${CXXFLAGS} -I . -c $*.cpp
 	
 
-aufgabe5_main: QGramIndex.o aufgabe5_main.o a5_util.o
-	${CXX} ${CXXFLAGS} -I . $^ -o aufgabe5_main
+qg_main: QGramIndex.o qg_main.o qg_util.o
+	${CXX} ${CXXFLAGS} -I . $^ -o qg_main
 
-aufgabe5_test: QGramIndex.o  aufgabe5_test.o a5_util.o
-	${CXX} ${CXXFLAGS} -I . $^ -o  aufgabe5_test
+qg_test: QGramIndex.o qg_test.o qg_util.o
+	${CXX} ${CXXFLAGS} -I . $^ -o qg_test
   

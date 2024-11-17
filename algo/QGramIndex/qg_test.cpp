@@ -10,7 +10,7 @@
 #include <omp.h>
 
 #include "QGramIndex.hpp"
-#include "a5_util.hpp"
+#include "qg_util.hpp"
 
 using namespace std;
 

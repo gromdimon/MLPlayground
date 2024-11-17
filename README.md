@@ -1,6 +1,6 @@
 # Stronghold: Various ML Prohjects + Algo Implementations
 
-![Photo by <a href="https://unsplash.com/@possessedphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Possessed Photography</a> on <a href="https://unsplash.com/photos/asimo-robot-doing-handsign-g29arbbvPjo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>](assets/header.jpg)
+![Abstract Header. Generated with DALL-E 3](assets/header.png)
 
 
 ## Introduction

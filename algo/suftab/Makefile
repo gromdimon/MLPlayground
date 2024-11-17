@@ -8,11 +8,11 @@ CXXFLAGS = -std=c++17 -Wall -pedantic -O3 -D_GLIBCXX_ASSERTIONS -g -fsanitize=ad
 	${CXX} ${CXXFLAGS} -I . -c $*.cpp
 	
 
-aufgabe2_main: aufgabe2.o aufgabe2_main.o
-	${CXX} ${CXXFLAGS} -I . $^ -o aufgabe2_main
+suftab_main: suftab.o suftab_main.o
+	${CXX} ${CXXFLAGS} -I . $^ -o suftab_main
 
-aufgabe2_test: aufgabe2.o aufgabe2_test.o
-	${CXX} ${CXXFLAGS} -I . $^ -o aufgabe2_test
+suftab_test: suftab.o suftab_test.o
+	${CXX} ${CXXFLAGS} -I . $^ -o suftab_test
   
-aufgabe2_bench: aufgabe2.o aufgabe2_bench.o
-	${CXX} ${CXXFLAGS} -I . $^ -o aufgabe2_bench
+suftab_bench: suftab.o suftab_bench.o
+	${CXX} ${CXXFLAGS} -I . $^ -o suftab_bench

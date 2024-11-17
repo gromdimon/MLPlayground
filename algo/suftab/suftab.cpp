@@ -1,4 +1,4 @@
-#include "aufgabe2.hpp"
+#include "suftab.hpp"
 
 #include <cstdint>
 #include <algorithm>

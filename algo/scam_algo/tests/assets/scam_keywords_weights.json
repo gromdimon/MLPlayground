@@ -1,0 +1,18 @@
+{
+    "crypto": 0.3,
+    "phishing": 0.4,
+    "tech_support": 0.2,
+    "admin_accounts": 0.2,
+    "classified_ads": 0.2,
+    "crypto_pump_and_dump": 0.3,
+    "job_offers": 0.25,
+    "friend_in_need": 0.25,
+    "otp_bots": 0.3,
+    "text_scams": 0.35,
+    "email_scams": 0.35,
+    "social_engineering": 0.3,
+    "romance_scams": 0.4,
+    "grandparent_scams": 0.3,
+    "bank_fraud": 0.35,
+    "impersonation_scams": 0.35
+}

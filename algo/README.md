@@ -7,6 +7,7 @@ organization. Look at Readme's and comments in the code for more details.
 ## Contents
 
 - [Bioinformatics algorithms](./bioinfo)
+- [Scam Detection Algorithm](./scam_algo) - Uses Aho-Corasick automaton for efficient keyword matching in text. Features weighted scoring system where different suspicious words contribute varying amounts to the final scam probability score.
 
 ## Languages
 - Python

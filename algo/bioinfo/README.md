@@ -1,8 +1,5 @@
-# Bioinformatics_Stronghold🏫
-In this repository you can find my solutions for the Bioinformatics Stronghold Tasks from Rosalind.🧬
+# Bioinformatics Algorithms 🏫
 
-Sometimes I didn't reinvent the wheel, but just looked at ready-made solutions.
+In this repository you can find my solutions for the Bioinformatics Stronghold Tasks from Rosalind 🧬
 
-I was inspired mostly by egeulgen. Big thanks!
-
-I will be glad if I can help someone with the following code.
+Original repository: https://github.com/gromdimon/Bioinformatics_Stronghold

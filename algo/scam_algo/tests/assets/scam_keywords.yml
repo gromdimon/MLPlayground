@@ -1,0 +1,85 @@
+scam_keywords:
+  crypto:
+    - guaranteed return
+    - crypto investment
+    - special exchange
+    - Bitcoin giveaway
+    - cryptocurrency prize
+  phishing:
+    - urgent
+    - account compromised
+    - verify account
+    - bank representative
+    - update information
+  tech_support:
+    - tech support
+    - account issue
+    - urgent assistance
+    - support chat
+    - premium support
+  admin_accounts:
+    - admin help
+    - official support
+    - verify account
+    - account assistance
+  classified_ads:
+    - great deal
+    - limited offer
+    - special price
+    - classified ad
+    - exclusive offer
+  crypto_pump_and_dump:
+    - crypto signal
+    - price prediction
+    - quick profit
+    - pump
+    - dump
+    - investment group
+    - VIP membership
+  job_offers:
+    - high salary job
+    - remote work opportunity
+    - job offer
+    - hiring manager
+  friend_in_need:
+    - urgent help needed
+    - accident
+    - financial trouble
+    - emergency situation
+  otp_bots:
+    - one-time password
+    - OTP request
+    - authentication code
+  text_scams:
+    - suspicious activity
+    - past due bill
+    - item couldn't be delivered
+    - job interview
+  email_scams:
+    - Amazon email
+    - fake voicemail
+    - phony invoice
+    - PayPal invoice
+  social_engineering:
+    - urgent request
+    - desperate need
+    - personal favor
+  romance_scams:
+    - true love
+    - faraway location
+    - military base
+    - offshore oil rig
+  grandparent_scams:
+    - emergency situation
+    - accident
+    - arrest
+    - robbery
+    - hospitalized
+  bank_fraud:
+    - bank fraud alert
+    - transaction verification
+    - fake bank representative
+  impersonation_scams:
+    - free gift
+    - package delivery issue
+    - Amazon fraud prevention

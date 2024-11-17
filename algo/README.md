@@ -13,6 +13,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [Suffix Array](./suftab)
 - [Alignment Challenge](./align)
 - [BLAST](./BLAST)
+- [QGramIndex](./QGramIndex)
 
 ## Languages
 - Python

@@ -1,6 +1,6 @@
 #include "QGramIndex.hpp"
 #include <iostream>
-#include "a5_util.hpp"
+#include "qg_util.hpp"
 // #include <bitset> // DEBUG
 #include <cmath>
 

@@ -11,6 +11,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [Leetcode problems](./leetcode)
 - [Horspool Algorithm](./horspool)
 - [Suffix Array](./suftab)
+- [Alignment Challenge](./align)
 
 ## Languages
 - Python

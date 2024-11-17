@@ -2,12 +2,10 @@
 
 #include <string>
 #include <vector>
-//#include <omp.h> // not needed here, but in .cpp
 
 
-#include "a4_util.h"
+#include "blst_util.h"
 
-// ... more includes here...
 #include <iostream> // DEBUG
 #include <stdexcept>
 
@@ -36,7 +34,6 @@ struct NHResult
 
 class BLAST_Neighborhood
 {
-  // do NOT change the public interface
   public:
     /**
      Berechnet die BLAST Nachbarschaft fuer eine Query.
@@ -59,8 +56,6 @@ class BLAST_Neighborhood
 
   
   private:
-    // your private member _functions_ go here <> (if needed)
-    // hint: private member _variables_ are probably not required 
     std::vector<char> amino_acids = {'A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V'};
 
     void generateWords(const std::string& query, int word_size, std::vector<std::string>& output);

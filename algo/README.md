@@ -12,6 +12,7 @@ organization. Look at Readme's and comments in the code for more details.
 - [Horspool Algorithm](./horspool)
 - [Suffix Array](./suftab)
 - [Alignment Challenge](./align)
+- [BLAST](./BLAST)
 
 ## Languages
 - Python

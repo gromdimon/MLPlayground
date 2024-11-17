@@ -1,24 +1,21 @@
-# ML-Random: Reimplementation of Machine Learning Projects
+# Stronghold: Various ML Prohjects + Algo Implementations
 
 ![Photo by <a href="https://unsplash.com/@possessedphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Possessed Photography</a> on <a href="https://unsplash.com/photos/asimo-robot-doing-handsign-g29arbbvPjo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>](assets/header.jpg)
 
 
 ## Introduction
 
-Welcome to ML-Random, a repository dedicated to the reimplementation of various machine learning and AI algorithms. This project aims to learn and explore different techniques, optimize existing solutions, and experiment with new ideas in the field of machine learning and AI.
+This repository contains various machine learning projects and algorithm implementations, which I 
+create for fun and learning. This is just a hub for my personal interests and experiments.
 
+## Contents of the repo
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Technologies Used](#technologies-used)
-3. [Getting Started](#getting-started)
-4. [License](#license)
-5. [Contact](#contact)
+The repo has a folder "algo" for various algorithms. Other folders are dedicated to different projects.
 
+> [!NOTE]
+> Each project within this repository may have additional setup or instructions. Please refer to the 
+> `README.md` file within each project's directory for more specialized guidance.
 
-## Project Overview
-
-In this repository, we focus on reimplementing a range of machine learning projects, ranging from foundational algorithms to contemporary AI solutions. The goal is to deepen our understanding of these algorithms, improve upon them, and share insights with the broader community.
 
 ### Projects Included:
 - Mikrograd: A minimal autograd engine based on [micrograd](https://github.com/karpathy/micrograd) by `Andrej Karpathy`
@@ -32,15 +29,20 @@ In this repository, we focus on reimplementing a range of machine learning proje
 - [General Machine Learning Techniques practice](https://github.com/gromdimon/Training--Projects)
 
 
-## Technologies Used
+## Tech
 
-- **Python**: The primary programming language used for implementing algorithms.
-- **Libraries/Frameworks**: PyTorch, Scikit-learn, Matplotlib.
+Note, that this repo has shared python environment, which is defined in `Pipfile`. The reason is 
+simple - all projects are simple enough to have only standard dependencies with no conflicts.
+
+> [!NOTE]
+> Some algorithms are implemented in different languages, e.g. C++. 
+> The notes how to run them are in the corresponding folders.
 
 
 ## Getting Started
 
-These instructions will help you set up the project on your local machine for development and testing purposes.
+These instructions will help you set up the python env for the repo, if you want to run the code 
+locally. I'll use `pyenv` and `pipenv` for this, but you can use any other tools you like.
 
 ### Prerequisites
 
@@ -62,18 +64,17 @@ Follow these steps to get your development environment running:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/gromdimon/ml-random.git
+   git clone https://github.com/gromdimon/stronghold.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd ml-random
+   cd stronghold
    ```
 
 3. Set the local Python version using `pyenv`:
    ```
-   pyenv install 3.10.12
-   pyenv local 3.10.12
+   pyenv install 3.12
    ```
 
 4. Install `pipenv` for the local Python version:
@@ -91,11 +92,6 @@ Follow these steps to get your development environment running:
    pipenv shell
    ```
 
-### Project-Specific Instructions
-
-Each project within this repository may have additional setup or instructions. Please refer to the README.md file within each project's directory for more specialized guidance.
-
-
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License, so you can use it for any purpose `:)`

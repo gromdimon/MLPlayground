@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
     int threads;
 
     if (argc != 6) {
-        std::cout << "Usage: ./aufgabe4_main <SEQ> <SCORE_MATRIX> <WORD_SIZE> <THRESHOLD> <THREADS>\n";
+        std::cout << "Usage: ./blst_main <SEQ> <SCORE_MATRIX> <WORD_SIZE> <THRESHOLD> <THREADS>\n";
         return 1;
     }
     query = argv[1];

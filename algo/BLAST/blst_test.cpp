@@ -6,7 +6,7 @@
 #include <omp.h>
 
 #include "BLAST_Neighborhood.hpp"
-#include "a4_util.h"
+#include "blst_util.h"
 
 using namespace std;
 

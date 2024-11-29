@@ -18,6 +18,7 @@ The repo has a folder "algo" for various algorithms. Other folders are dedicated
 
 
 ### Projects Included:
+- SpliceAI: A reimplementation of SpliceAI algorithm based on [paper](https://doi.org/10.1016/j.cell.2018.12.015)
 - Mikrograd: A minimal autograd engine based on [micrograd](https://github.com/karpathy/micrograd) by `Andrej Karpathy`
 - Makemore: A tool for generating synthetic data. Based on the [makemore](https://github.com/karpathy/makemore/tree/master) by `Andrej Karpathy`
 - RuPoemGPT: A character-level language model trained on a collection of russian poems. Based on the [nanoGPT](https://github.com/karpathy/nanoGPT) by `Andrej Karpathy`

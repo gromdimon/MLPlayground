@@ -6,7 +6,7 @@
 #include <vector>
 #include "H5Cpp.h"
 
-class HDF5Dataset : public torch::data::Dataset<HDF5Dataset> {
+class HDF5Dataset : public torch::data::datasets::Dataset<HDF5Dataset> {
 public:
     HDF5Dataset(const std::string& file_path, int shard_idx);
 

@@ -19,7 +19,10 @@ HDF5Dataset::HDF5Dataset(const std::string& file_path, int shard_idx) {
         dataset_x.read(x_data.data(), H5::PredType::NATIVE_FLOAT);
 
         // Convert to Tensor and transpose to match PyTorch dimensions
-        auto x_tensor = torch::from_blob(x_data.data(), {dims_x[0], dims_x[1], dims_x[2]}, torch::kFloat32).clone();
+        auto x_tensor = torch::from_blob(x_data.data(), 
+            {static_cast<int64_t>(dims_x[0]), 
+             static_cast<int64_t>(dims_x[1]), 
+             static_cast<int64_t>(dims_x[2])}, torch::kFloat32).clone();
         x_tensor = x_tensor.permute({0, 2, 1}); // From (N, L, C) to (N, C, L)
 
         // Read dataset Y
@@ -36,7 +39,9 @@ HDF5Dataset::HDF5Dataset(const std::string& file_path, int shard_idx) {
         dataset_y.read(y_data.data(), H5::PredType::NATIVE_FLOAT);
 
         // Convert to Tensor
-        auto y_tensor = torch::from_blob(y_data.data(), {dims_y[1], dims_y[2]}, torch::kFloat32).clone();
+        auto y_tensor = torch::from_blob(y_data.data(),
+            {static_cast<int64_t>(dims_y[1]), 
+             static_cast<int64_t>(dims_y[2])}, torch::kFloat32).clone();
 
         // Store data and targets
         data_.push_back(x_tensor);

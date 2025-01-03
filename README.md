@@ -10,20 +10,26 @@ create for fun and learning. This is just a hub for my personal interests and ex
 
 ## Contents of the repo
 
-The repo has a folder "algo" for various algorithms. Other folders are dedicated to different projects.
+The repo has a folder "algo" for various algorithms. Other folders are dedicated to **different projects**.
 
+### Algorithms
+
+Can be found in `algo` directory
+
+
+### Projects
 > [!NOTE]
 > Each project within this repository may have additional setup or instructions. Please refer to the 
 > `README.md` file within each project's directory for more specialized guidance.
 
-
-### Projects Included:
 - SpliceAI: A reimplementation of SpliceAI algorithm based on [paper](https://doi.org/10.1016/j.cell.2018.12.015)
 - Mikrograd: A minimal autograd engine based on [micrograd](https://github.com/karpathy/micrograd) by `Andrej Karpathy`
 - Makemore: A tool for generating synthetic data. Based on the [makemore](https://github.com/karpathy/makemore/tree/master) by `Andrej Karpathy`
 - RuPoemGPT: A character-level language model trained on a collection of russian poems. Based on the [nanoGPT](https://github.com/karpathy/nanoGPT) by `Andrej Karpathy`
 
-  **Also here are some older projects, which were not included into this repository:**
+
+**Also here are some older projects, which were not included into this repository:**
+- [beLLM: first LLM for belarusian language](https://github.com/gromdimon/beLLM)
 - [Glycoprotein prediction with AlphaFold2](https://github.com/gromdimon/AlphaFold_Glycoprotein)
 - [Analysis of Long COVID Symptoms using BERT and Twitter Data](https://github.com/gromdimon/LongCovid)
 - [Compound bioactivity prediction](https://github.com/gromdimon/Bioactivity_prediction_project)
